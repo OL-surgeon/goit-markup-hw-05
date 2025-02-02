@@ -659,8 +659,6 @@ img {
   line-height: 117%;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
-  align-items: center;
 }
 .modal-check-text-policy {
   line-height: 133%;
@@ -683,7 +681,7 @@ img {
   justify-content: center;
   fill: transparent;
 }
-.modal-check:checked + .modal-check-text .modal-check-svg {
+.modal-check:checked + .modal-check-text .modal-check-item {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
